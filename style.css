@@ -1,0 +1,109 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* variables */
+:root {
+    --accent-color: #5390d9;
+    --body-color: #555;
+    --light-color: #999;
+    
+    --header-font:  'Montserrat', sans-serif;
+    --body-font: 'Open Sans', sans-serif;
+
+    background-color: #f3f3f3f3;
+}
+
+.section-title { 
+    font-family:  var(--header-font);
+    color: var(--accent-color);
+    font-weight: 400;
+}
+
+.page-section {
+    margin: 30px 28%;
+}
+
+body {
+    padding: 0 20px;
+    margin: 0;
+
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid var(--light-color);
+}
+.nav-button-container {
+    display: flex;
+    margin: 0 12%;
+    padding: 0;
+
+}
+
+
+.nav-tab {
+    color: var(--body-color);
+    font-family: var(--body-font);
+    text-decoration: none;
+    padding: 30px;
+    margin: 0 10px;
+    /* flex-grow: 1; */
+    transition: 0.2s ease;
+    font-size: 1.1em;
+}
+
+.body-text {
+    color: var(--body-color);
+    font-family: var(--body-font);
+    padding: 0;
+    margin: 0;
+    line-height: 1.7em
+}
+.body-list {
+    margin-left: 50px;
+    list-style-type: circle;
+}
+
+.body-text b {
+    color: var(--accent-color);
+}
+
+.nav-tab:hover {
+    color: var(--accent-color);
+}
+
+
+.nav-tab.active {
+    font-weight: bold;
+}
+.faint {
+    color: var(--light-color);
+    font-family: var(--body-font);
+    font-size: 0.75em;
+    margin: -10px 0 0 0;
+    padding: 0;
+    
+}
+
+.publication-list {
+    margin-left: 30px;
+    list-style-type: circle;
+}
+.publication {
+    font-size: 1.2em;
+}
+.pub-link {
+    text-decoration: none;
+    color: var(--body-color);
+    transition: 0.2s ease;
+}
+
+.pub-link:hover {
+    filter: brightness(1.2);
+}
+
+.publisher {
+    font-style: italic;
+}
