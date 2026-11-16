@@ -6,6 +6,7 @@
 :root {
     --accent-color: #5390d9;
     --body-color: #555;
+    --medium-light-color: #777;
     --light-color: #999;
     
     --header-font:  'Montserrat', sans-serif;
@@ -88,7 +89,7 @@ body {
 }
 
 .caption {
-    color: var(--body-color);
+    color: var(--medium-light-color);
     font-family: var(--body-font);
     font-size: 0.8em;
     margin: -3px 0 0 0;
