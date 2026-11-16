@@ -86,6 +86,12 @@ body {
     padding: 0;
     
 }
+/* Center the game even though it probably doesn't fit */
+#itch-game {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 .publication-list {
     margin-left: 30px;
