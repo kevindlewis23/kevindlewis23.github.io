@@ -124,8 +124,17 @@ body {
 }
 
 
-#bouncing-outer-billiard-img {
+.bordered-img {
     border-radius: 5px;
     border: 2px solid var(--accent-color);
     box-shadow: 1px 1px 3px var(--accent-color);
+}
+
+.float-right {
+    float: right;
+    margin: 60px 20% 10px 10px;
+}
+
+.width-70 {
+    width: 75%;
 }
