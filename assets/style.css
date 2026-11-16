@@ -91,7 +91,7 @@ body {
     color: var(--body-color);
     font-family: var(--body-font);
     font-size: 0.8em;
-    margin: -5px 0 0 0;
+    margin: -3px 0 0 0;
     padding: 0;
     
 }
@@ -137,4 +137,14 @@ body {
 
 .width-70 {
     width: 75%;
+}
+
+.width-40 {
+    width: 40%;
+}
+
+.hr {
+    margin: 0 21%;
+    height: 0;
+    border-bottom: 1px solid var(--light-color);
 }
